@@ -1,15 +1,13 @@
-# Select GMs using Weighted Multi-IM Objective
+# Select ground motions using Weighted Multi-IM Objective
 
 
 This code selects ground motions based on weighted multi-IM normalized objective function using different intensity measures including Sa, PGV, CAV, Ia, and D5-95
 
 
-Citation #1: 
+References: 
           
           Jawad Fayaz, Miguel Medalla, Pablo Torres, and Carmine Galasso (2023). "Recurrent Neural Networks based Generalized Ground Motion Model for Chilean Subduction Seismic Environment". Structural Safety, Vol. 100, Pages 102282
 
-
-Citation #2:
 
           Jawad Fayaz and Carmine Galasso (2022). "A Generalized Ground Motion Model for Consistent Mainshock-Aftershock Intensity Measures using Successive Recurrent Neural Networks". Bulletin of Earthquake Engineering, Vol. 20, Pages 6467-6486
 
@@ -29,7 +27,8 @@ The 'IM_Data.mat' file which must be in the current folder and contain 2 variabl
 The 'Target_IMs.xlsx' file must contain 3 columns in the same format as the example file. The column 1 can be empty, the code uses the columns 2 and 3 of the excel
 
 
-OUTPUT:
+OUTPUTS:
+
 The outputs will be provided in 'SEL_IMs_GMs.mat' file which contain the scale and unscaled versions of the selected IMs. The output file will contain 
 
             'Sel_CAV_Unscaled','Sel_Spectra_Unscaled','Sel_Spectra_Scaled','Sel_PGV_Unscaled','Sel_Ia_Unscaled','Sel_CAV_Scaled','Sel_PGV_Scaled','Sel_Ia_Scaled','Sel_D595','Sel_Error','Sel_GMs_ids'
