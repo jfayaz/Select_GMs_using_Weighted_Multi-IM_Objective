@@ -4,9 +4,12 @@
 This code selects ground motions based on weighted multi-IM normalized objective function using different intensity measures including Sa, PGV, CAV, Ia, and D5-95
 
 
-Citation: 
+Citation #1: 
+          
           Jawad Fayaz, Miguel Medalla, Pablo Torres, and Carmine Galasso (2023). "Recurrent Neural Networks based Generalized Ground Motion Model for Chilean Subduction Seismic Environment". Structural Safety, Vol. 100, Pages 102282
 
+
+Citation #2:
 
           Jawad Fayaz and Carmine Galasso (2022). "A Generalized Ground Motion Model for Consistent Mainshock-Aftershock Intensity Measures using Successive Recurrent Neural Networks". Bulletin of Earthquake Engineering, Vol. 20, Pages 6467-6486
 
