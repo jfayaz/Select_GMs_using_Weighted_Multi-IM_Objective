@@ -35,4 +35,6 @@ The outputs will be provided in 'SEL_IMs_GMs.mat' file which contain the scale a
 
 
 The variables are self-explanatory 
+          
           'Sel_GMs_ids' --> n x 1  array containing indices of the selected GM IMs  with the same order as the 'IM_Data.mat' file
+          
